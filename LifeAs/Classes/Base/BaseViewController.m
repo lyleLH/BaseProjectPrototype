@@ -8,7 +8,7 @@
 
 #import "BaseViewController.h"
 
-@interface BaseViewController () <UINavigationControllerDelegate>
+@interface BaseViewController ()
 
 @end
 
@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationController.delegate = self;
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
@@ -25,16 +24,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if ([viewController isKindOfClass:[self class]]) {
-        [navigationController setNavigationBarHidden:YES animated:YES];
-    }else {
-        [navigationController setNavigationBarHidden:NO animated:YES];
-    }
-}
-
 
 
 @end

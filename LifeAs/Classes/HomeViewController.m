@@ -17,14 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"首页";
+    self.title = @"Home";
 }
 
 
 - (IBAction)nextPage:(id)sender {
     
     BaseViewController * vc = [[BaseViewController alloc] init];
-    vc.title = @"明天";
+    vc.title = @"Tomorrow";
     [self.navigationController pushViewController:vc animated:YES];
     
     
