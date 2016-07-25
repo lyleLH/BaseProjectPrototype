@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1C6BA60B41404597707445CD /* libPods-LifeAs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CDFB5405F67D12BF9585E1 /* libPods-LifeAs.a */; };
 		987C4A7B1CB7494E004D2041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4A7A1CB7494E004D2041 /* main.m */; };
-		987C4A841CB7494E004D2041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987C4A821CB7494E004D2041 /* Main.storyboard */; };
 		987C4A861CB7494E004D2041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987C4A851CB7494E004D2041 /* Assets.xcassets */; };
 		987C4A891CB7494E004D2041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987C4A871CB7494E004D2041 /* LaunchScreen.storyboard */; };
 		98AE7BC21D45B55C00D8A658 /* ALLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7B841D45B55C00D8A658 /* ALLoadingView.m */; };
@@ -57,7 +56,6 @@
 		98AE7C121D45B5AC00D8A658 /* UIViewController+SwipeBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C101D45B5AC00D8A658 /* UIViewController+SwipeBack.m */; };
 		98AE7C161D45B5B800D8A658 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C151D45B5B800D8A658 /* UIView+Toast.m */; };
 		98AE7C1B1D45B61900D8A658 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C181D45B61900D8A658 /* AppDelegate.mm */; };
-		98AE7C1C1D45B61900D8A658 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C1A1D45B61900D8A658 /* ViewController.m */; };
 		98AE7C741D45BA9700D8A658 /* NSDate+CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C231D45BA9700D8A658 /* NSDate+CommonMethod.m */; };
 		98AE7C751D45BA9700D8A658 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C251D45BA9700D8A658 /* NSDate+Utils.m */; };
 		98AE7C761D45BA9700D8A658 /* NSDictionary+LHTextAttributesDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C271D45BA9700D8A658 /* NSDictionary+LHTextAttributesDic.m */; };
@@ -100,6 +98,9 @@
 		98AE7C9B1D45BA9700D8A658 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C731D45BA9700D8A658 /* UIView+Line.m */; };
 		98AE7CA01D45BADC00D8A658 /* YYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7C9F1D45BADC00D8A658 /* YYKeyboardManager.m */; };
 		98AE7CA41D45BD4500D8A658 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7CA31D45BD4500D8A658 /* BaseNavigationViewController.m */; };
+		98AE7CA71D45DDFF00D8A658 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7CA61D45DDFF00D8A658 /* BaseViewController.m */; };
+		98AE7CAB1D45DFCE00D8A658 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7CA91D45DFCE00D8A658 /* HomeViewController.m */; };
+		98AE7CAC1D45DFCE00D8A658 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98AE7CAA1D45DFCE00D8A658 /* HomeViewController.xib */; };
 		98E784EE1CB74E2400D6BD0E /* LHApiCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E784ED1CB74E2400D6BD0E /* LHApiCategory.m */; };
 /* End PBXBuildFile section */
 
@@ -108,7 +109,6 @@
 		42CDFB5405F67D12BF9585E1 /* libPods-LifeAs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LifeAs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		987C4A761CB7494E004D2041 /* LifeAs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeAs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987C4A7A1CB7494E004D2041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		987C4A831CB7494E004D2041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		987C4A851CB7494E004D2041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		987C4A881CB7494E004D2041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		987C4A8A1CB7494E004D2041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -208,8 +208,6 @@
 		98AE7C151D45B5B800D8A658 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		98AE7C171D45B61900D8A658 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98AE7C181D45B61900D8A658 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		98AE7C191D45B61900D8A658 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98AE7C1A1D45B61900D8A658 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		98AE7C1E1D45BA2200D8A658 /* LifeAs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LifeAs-Prefix.pch"; sourceTree = "<group>"; };
 		98AE7C1F1D45BA9700D8A658 /* commonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonDefine.h; sourceTree = "<group>"; };
 		98AE7C201D45BA9700D8A658 /* UISettingExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISettingExtention.h; sourceTree = "<group>"; };
@@ -297,6 +295,11 @@
 		98AE7C9F1D45BADC00D8A658 /* YYKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKeyboardManager.m; sourceTree = "<group>"; };
 		98AE7CA21D45BD4500D8A658 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
 		98AE7CA31D45BD4500D8A658 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		98AE7CA51D45DDFF00D8A658 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		98AE7CA61D45DDFF00D8A658 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		98AE7CA81D45DFCE00D8A658 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		98AE7CA91D45DFCE00D8A658 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		98AE7CAA1D45DFCE00D8A658 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		98E784EC1CB74E2400D6BD0E /* LHApiCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHApiCategory.h; sourceTree = "<group>"; };
 		98E784ED1CB74E2400D6BD0E /* LHApiCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHApiCategory.m; sourceTree = "<group>"; };
 		98E784F01CB74EB400D6BD0E /* NetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConfig.h; sourceTree = "<group>"; };
@@ -545,7 +548,6 @@
 		98AE7C1D1D45B62A00D8A658 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				987C4A821CB7494E004D2041 /* Main.storyboard */,
 				987C4A851CB7494E004D2041 /* Assets.xcassets */,
 				987C4A871CB7494E004D2041 /* LaunchScreen.storyboard */,
 			);
@@ -674,6 +676,8 @@
 			children = (
 				98AE7CA21D45BD4500D8A658 /* BaseNavigationViewController.h */,
 				98AE7CA31D45BD4500D8A658 /* BaseNavigationViewController.m */,
+				98AE7CA51D45DDFF00D8A658 /* BaseViewController.h */,
+				98AE7CA61D45DDFF00D8A658 /* BaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -684,8 +688,9 @@
 				98AE7CA11D45BD2B00D8A658 /* Base */,
 				98AE7C171D45B61900D8A658 /* AppDelegate.h */,
 				98AE7C181D45B61900D8A658 /* AppDelegate.mm */,
-				98AE7C191D45B61900D8A658 /* ViewController.h */,
-				98AE7C1A1D45B61900D8A658 /* ViewController.m */,
+				98AE7CA81D45DFCE00D8A658 /* HomeViewController.h */,
+				98AE7CA91D45DFCE00D8A658 /* HomeViewController.m */,
+				98AE7CAA1D45DFCE00D8A658 /* HomeViewController.xib */,
 				98E784E51CB74DFC00D6BD0E /* API */,
 				98E784E81CB74DFC00D6BD0E /* Function */,
 			);
@@ -796,7 +801,7 @@
 			files = (
 				987C4A891CB7494E004D2041 /* LaunchScreen.storyboard in Resources */,
 				987C4A861CB7494E004D2041 /* Assets.xcassets in Resources */,
-				987C4A841CB7494E004D2041 /* Main.storyboard in Resources */,
+				98AE7CAC1D45DFCE00D8A658 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,6 +872,7 @@
 				98AE7BD21D45B55C00D8A658 /* UIActionSheet+Blocks.m in Sources */,
 				98AE7C121D45B5AC00D8A658 /* UIViewController+SwipeBack.m in Sources */,
 				98AE7C771D45BA9700D8A658 /* NSDictionary+NotNullValue.m in Sources */,
+				98AE7CAB1D45DFCE00D8A658 /* HomeViewController.m in Sources */,
 				98AE7C881D45BA9700D8A658 /* UIButton+Block.m in Sources */,
 				98AE7C031D45B59700D8A658 /* Aspects.m in Sources */,
 				98AE7BD41D45B55C00D8A658 /* UIButton+ASCategory.m in Sources */,
@@ -911,11 +917,11 @@
 				98AE7C951D45BA9700D8A658 /* UINavigationBar+LHAwsome.m in Sources */,
 				98AE7BC61D45B55C00D8A658 /* ASMaskdView.m in Sources */,
 				98AE7CA01D45BADC00D8A658 /* YYKeyboardManager.m in Sources */,
-				98AE7C1C1D45B61900D8A658 /* ViewController.m in Sources */,
 				98AE7C961D45BA9700D8A658 /* UINavigationController+JZExtension.m in Sources */,
 				98AE7BDF1D45B55C00D8A658 /* UIView+ASCategory.m in Sources */,
 				98E784EE1CB74E2400D6BD0E /* LHApiCategory.m in Sources */,
 				98AE7BC81D45B55C00D8A658 /* CLLocation+ASCategory.m in Sources */,
+				98AE7CA71D45DDFF00D8A658 /* BaseViewController.m in Sources */,
 				98AE7CA41D45BD4500D8A658 /* BaseNavigationViewController.m in Sources */,
 				98AE7BDD1D45B55C00D8A658 /* UITableView+ASCategory.m in Sources */,
 				98AE7BD81D45B55C00D8A658 /* UIImageView+ASCategory.m in Sources */,
@@ -951,15 +957,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		987C4A821CB7494E004D2041 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				987C4A831CB7494E004D2041 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		987C4A871CB7494E004D2041 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

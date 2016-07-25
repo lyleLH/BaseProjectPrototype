@@ -27,7 +27,7 @@
 
 
 + (UIColor *)kp_themecolor {
-    return UIColorFromRGB(0xff6c00);
+    return UIColorFromRGB(0x2d7c69);
 }
 + (UIColor *)kp_themecolorDark {
     return UIColorFromRGB(0xcb773f);

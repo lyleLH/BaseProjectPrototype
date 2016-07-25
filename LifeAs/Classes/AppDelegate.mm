@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HomeViewController.h"
+#import "BaseNavigationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    HomeViewController * home  = [[HomeViewController alloc] init];
+    self.window.rootViewController =[[BaseNavigationViewController alloc] initWithRootViewController:home];
     return YES;
 }
 
@@ -40,6 +43,23 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+- (UIWindow *)window {
+    
+    
+    if (!_window) {
+        
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        
+        _window.backgroundColor = [UIColor whiteColor];
+        
+        [_window makeKeyAndVisible];
+        
+    }
+    
+    return _window;
 }
 
 @end
