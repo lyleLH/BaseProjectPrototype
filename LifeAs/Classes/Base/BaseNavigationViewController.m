@@ -8,7 +8,7 @@
 
 #import "BaseNavigationViewController.h"
 
-@interface BaseNavigationViewController ()
+@interface BaseNavigationViewController ()<UINavigationControllerDelegate>
 
 @end
 

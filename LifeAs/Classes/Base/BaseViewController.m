@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationController.delegate = self;
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,7 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-#warning 注册这里是 willShowViewController 不是didShow
+
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if ([viewController isKindOfClass:[self class]]) {
         [navigationController setNavigationBarHidden:YES animated:YES];
@@ -32,6 +34,7 @@
         [navigationController setNavigationBarHidden:NO animated:YES];
     }
 }
+
 
 
 @end

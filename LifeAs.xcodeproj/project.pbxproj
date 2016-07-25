@@ -1056,6 +1056,7 @@
 			baseConfigurationReference = A04C20CC556600E657D7B571 /* Pods-LifeAs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/LifeAs/LifeAs-Prefix.pch";
 				INFOPLIST_FILE = LifeAs/Info.plist;
@@ -1070,6 +1071,7 @@
 			baseConfigurationReference = 2CD8199F2C0B3E2827FD30FC /* Pods-LifeAs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/LifeAs/LifeAs-Prefix.pch";
 				INFOPLIST_FILE = LifeAs/Info.plist;
